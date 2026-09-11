@@ -1,7 +1,12 @@
-# TraceHarvest — Implementation Guide
+# TraceHarvest — Farm-to-Fork Traceability on Blockchain
 
-A working starter kit: Solidity smart contract + Hardhat project + React/ethers.js
-frontend with QR-code generation and scanning. Follow the steps in order.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FRushikaputta%2Ftraceharvest-web3&root-directory=frontend)
+
+**Live Demo URL**: [https://kvymq-103-206-112-48.free.pinggy.net](https://kvymq-103-206-112-48.free.pinggy.net)  
+**GitHub Repository**: [https://github.com/Rushikaputta/traceharvest-web3](https://github.com/Rushikaputta/traceharvest-web3)
+
+A complete Web3 starter kit: Solidity smart contract + Hardhat project + React/ethers.js v6
+frontend with QR-code generation, scanning, and interactive simulation mode.
 
 ---
 
