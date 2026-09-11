@@ -2,8 +2,10 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FRushikaputta%2Ftraceharvest-web3&root-directory=frontend)
 
-**Live Demo URL**: [https://kvymq-103-206-112-48.free.pinggy.net](https://kvymq-103-206-112-48.free.pinggy.net)  
-**GitHub Repository**: [https://github.com/Rushikaputta/traceharvest-web3](https://github.com/Rushikaputta/traceharvest-web3)
+🌐 **Live Vercel Application**: [traceharvest-c9cp7ixss-rushikaputtas-projects.vercel.app](https://traceharvest-c9cp7ixss-rushikaputtas-projects.vercel.app)  
+🚀 **Vercel Project Dashboard**: [Vercel Deployment](https://vercel.com/rushikaputtas-projects/traceharvest./HhMzwTtwE7X1ygubVq7PFwMNhqBX)  
+📱 **Direct Consumer QR Scan (Batch #1)**: [Verify Batch #1](https://traceharvest-c9cp7ixss-rushikaputtas-projects.vercel.app/?batch=1)  
+🐙 **GitHub Repository**: [https://github.com/Rushikaputta/traceharvest-web3](https://github.com/Rushikaputta/traceharvest-web3)  
 
 A complete Web3 starter kit: Solidity smart contract + Hardhat project + React/ethers.js v6
 frontend with QR-code generation, scanning, and interactive simulation mode.
@@ -160,10 +162,14 @@ secret.
 ---
 
 ## 4. Deploying the frontend live
+ 
+The frontend is deployed live on Vercel:
+- **Production URL**: https://traceharvest-c9cp7ixss-rushikaputtas-projects.vercel.app
+- **Vercel Dashboard**: https://vercel.com/rushikaputtas-projects/traceharvest./HhMzwTtwE7X1ygubVq7PFwMNhqBX
 
 Any static host works since this is a Vite/React app:
 
-- **Vercel**: `npm i -g vercel` → `vercel` inside `frontend/` → follow prompts.
+- **Vercel**: Configured with `frontend/vercel.json` SPA rewrites.
 - **Netlify**: drag-and-drop the `frontend/dist` folder (after `npm run
   build`) into Netlify's dashboard, or connect the GitHub repo.
 - **Firebase Hosting** (matches the `hosted.app` link style in your existing
