@@ -1,0 +1,15 @@
+[
+  "function registerBatch(string cropName, string farmerName, string originIpfsHash) returns (uint256)",
+  "function markInTransit(uint256 batchId, string note, string ipfsHash)",
+  "function markAtVendor(uint256 batchId, string note, string ipfsHash)",
+  "function confirmDelivery(uint256 batchId, string note, string ipfsHash)",
+  "function getBatch(uint256 batchId) view returns (tuple(uint256 id, string cropName, address farmer, string farmerName, string originIpfsHash, uint256 createdAt, uint8 currentStage, bool exists))",
+  "function getHistory(uint256 batchId) view returns (tuple(uint8 stage, address actor, string note, string ipfsHash, uint256 timestamp)[])",
+  "function totalBatches() view returns (uint256)",
+  "function grantFarmer(address account)",
+  "function grantDistributor(address account)",
+  "function grantVendor(address account)",
+  "function grantCanteen(address account)",
+  "event BatchRegistered(uint256 indexed batchId, address indexed farmer, string cropName)",
+  "event StageUpdated(uint256 indexed batchId, uint8 stage, address indexed actor, string note)"
+]

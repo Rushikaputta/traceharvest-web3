@@ -1,0 +1,14 @@
+node_modules
+.env
+cache
+artifacts
+coverage
+typechain
+typechain-types
+
+# Frontend
+frontend/node_modules
+frontend/dist
+.vercel
+.DS_Store
+Thumbs.db
